@@ -71,19 +71,19 @@
     }
 
 
-    /*Desativar pagina g*/
     .container {
         display: flex;
         align-items: center;
     }
-
+    
     .container form {
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 45vw;
     }
-
+    
+    /*Desativar pagina g*/
     #g {
         display: none;
     }
@@ -98,6 +98,10 @@
         border-bottom: 1px solid #ccc; 
         padding-bottom: 5px; 
         margin-bottom: 5px; 
+    }
+
+    #colection .nav-item .nav-link:hover {
+        color: #f7467b; 
     }
     
     #p .navbar-toggler{
