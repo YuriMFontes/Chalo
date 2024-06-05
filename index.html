@@ -63,14 +63,6 @@
                         <img class="logo" src="./imagem/chalo preto.png" alt="Chalô">
                     </a>
                 </div>
-                <form class="d-flex" role="search">
-                    <div class="input-group">
-                        <input class="form-control" type="search" placeholder="O que está procurando?" aria-label="Search">
-                        <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="submit"><i class="fas fa-search"></i></button>
-                        </div>
-                    </div>
-                </form>
                 <div class="icons">
                     <ul class="navbar-nav ms-auto d-flex flex-row align-items-center">
                         <li class="nav-item">
@@ -80,7 +72,7 @@
                             <a class="nav-link" href="#"><i id="icon" class="fas fa-shopping-cart"></i></a>
                         </li>
                         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                        <i class="fas fa-bars"></i>
+                            <i class="fas fa-bars"></i>
                         </button>
                     </ul>
                 </div>
@@ -88,6 +80,7 @@
                     <div class="offcanvas-header">
                       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
+                    
                     <!-- Abas de Categorias -->
                     <div class="offcanvas-body">
                       <ul id="colection" class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -116,6 +109,19 @@
                  </div>
             </div>
         </nav>
+
+        <!--Barra de pesquisa tela pequena-->
+        <div id="p" class="search">   
+            <form class="d-flex" role="search">
+                <div class="input-group">
+                    <input class="form-control" type="search" placeholder="O que está procurando?" aria-label="Search">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="submit"><i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
 
         <!-- Abas de Categorias -->
         <div id="g" class="category-tabs bg-black">
