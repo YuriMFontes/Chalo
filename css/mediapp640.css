@@ -93,4 +93,18 @@
         padding-bottom: 5px; 
         margin-bottom: 5px; 
     }
+    
+    .icons .navbar-toggler{
+        background-color: white;
+        width: 7vw;
+        height: 7vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar-toggler-icon{
+        width: 100%;
+        height: 100%;
+    }
 }
