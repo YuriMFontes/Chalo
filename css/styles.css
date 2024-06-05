@@ -1,14 +1,4 @@
 body {
     font-family: "Quicksand", sans-serif !important;
 }
-/* Estilo para o carrossel */
-.carousel-item {
-    height: 500px; 
-  }
-  
-  .carousel-item img {
-    object-fit: cover; 
-    height: 100%; 
-  }
-   
   
