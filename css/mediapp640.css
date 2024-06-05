@@ -2,9 +2,9 @@
 
     /*Logo*/
     .logo {
-        width: 15vw; 
+        width: 16vw; 
         height: auto;
-        margin: 2vw 2vw;
+        margin: 0vw 2vw;
     }
     
     /*Cabeçalho rosa*/
@@ -40,6 +40,11 @@
 
     .navbar-nav.ms-auto li.nav-item a.nav-link:hover {
         color: #fd729c;
+    }
+
+    /*Menu hamburguer*/
+    .hamburger-menu i {
+        color: white;
     }
 
     /*Barra de pesquisa*/
