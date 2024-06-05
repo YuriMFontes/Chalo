@@ -1,0 +1,96 @@
+@media (max-width:990px){
+
+    /*Logo*/
+    .logo {
+        width: 15vw; 
+        height: auto;
+        margin: 2vw 1vw;
+    }
+    
+    /*Cabeçalho rosa*/
+    .header-info {
+        height: 4.5vw;
+        font-weight: bold;
+        font-size: 3vw;
+        text-align: center;
+        background: linear-gradient(to right, #ffcbdb, #ffa1bd, #ff90b1, #fd729c);
+    }
+
+    .header-info p {
+        padding: 0.3vw;
+    }
+
+    .header-info i {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    /*Icones*/
+    #icon {
+        margin-right: 0.5vw;
+        font-size: 3vw;
+    }
+
+    .navbar-nav.ms-auto li.nav-item a.nav-link {
+        font-size: 1.2vw;
+        font-weight: 400;
+        color: white;
+        padding-right: 1.5vw;
+    }
+
+    .navbar-nav.ms-auto li.nav-item a.nav-link:hover {
+        color: #fd729c;
+    }
+
+    /*Barra de pesquisa*/
+    .input-group .form-control:focus {
+        box-shadow: none;
+        color: #f7467b;
+    }
+
+    .input-group .btn {
+        border: none;
+    }
+
+    .form-control {
+        border-right: 0;
+    }
+
+    .input-group-append .btn {
+        border: 0;
+    }
+
+    .input-group-append .btn:hover {
+        background-color: #fd729c;
+        border-radius: 50px;
+    }
+
+    /*Desativar pagina g*/
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    .container form {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 45vw;
+    }
+
+    #g {
+        display: none;
+    }
+
+    /*Sliderbar*/
+    #colection{
+        font-weight: bold;
+        font-size: 2.5vh;
+    }
+
+    #colection .nav-item {
+        border-bottom: 1px solid #ccc; 
+        padding-bottom: 5px; 
+        margin-bottom: 5px; 
+    }
+}
