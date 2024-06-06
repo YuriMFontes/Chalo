@@ -85,16 +85,33 @@
     }
 
     /*Abaixo da navbar*/
-    .category-tabs .nav-link{
+    
+    .category-tabs .nav-link {
         color: #fd729c;
         padding-bottom: 1vw;
+        position: relative; 
     }
 
-    .category-tabs .nav-link:hover{
+    .category-tabs .nav-link::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #fd729c;
+        transition: width 0.3s;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .category-tabs .nav-link:hover::after {
+        width: 100%;
+    }
+
+    .category-tabs .nav-link:hover {
         color: #ffffff;
         padding-bottom: 1vw;
     }
-
     /* Estilo para o carrossel */
     .carousel-item {
     height: 500px; 
