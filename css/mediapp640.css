@@ -113,9 +113,8 @@
         padding-left: 10px;
         color: black;
     }
-   
-    #colection .nav-link a{
-        color: #f7467b;
+    #colection .nav-item a:hover{
+        color: #fd729c;
     }
     
     /*botão 3 linhas*/
