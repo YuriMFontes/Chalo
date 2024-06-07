@@ -46,6 +46,12 @@
     .hamburger-menu i {
         color: white;
     }
+    .offcanvas-header{
+        background-image: url(../imagem/background\ sliderbar\ \(2\).jpg);
+    }
+    .offcanvas-body{
+        background-image: url(../imagem/background\ sliderbar\ \(2\).jpg);
+    }
 
     /*Barra de pesquisa*/
     .input-group .form-control:focus {
