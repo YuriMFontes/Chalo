@@ -1,10 +1,14 @@
 /*container pai*/
+body{
+    background-image: url(../imagem/Background.jpg);
+    background-size: cover;
+}
+
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ecf0f1;
 }
 /*Container-filho*/
 .content{
