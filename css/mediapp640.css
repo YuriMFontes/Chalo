@@ -52,35 +52,37 @@
         box-shadow: none;
         color: #f7467b;
     }
+    .input-group .form-control{
+        border-radius: 15px;
+    }
 
     .input-group .btn {
         border: none;
     }
 
-    .form-control {
-        border-right: 0;
-    }
-
     .input-group-append .btn {
         border: 0;
+        background-color: #fd729c;
+        border-top-right-radius:  15px;
+        border-bottom-right-radius: 15px;
+        height: 100%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
     }
 
     .input-group-append .btn:hover {
         background-color: #fd729c;
-        border-radius: 50px;
     }
 
-
-    .container {
-        display: flex;
-        align-items: center;
+    .search{
+        width: 100%; 
+        background-color: black;
     }
-    
-    .container form {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 45vw;
+    .search form{
+        width: 100%;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
     /*Desativar pagina g*/

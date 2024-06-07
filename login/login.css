@@ -3,6 +3,7 @@ body{
     background-image: url(../imagem/Background.jpg);
     background-size: cover;
 }
+ 
 
 .container{
     display: flex;
@@ -28,8 +29,6 @@ body{
     height: 100%;  
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-
-
     left: 0;
 }
 /*Titulo*/
@@ -164,6 +163,9 @@ body{
 .label-input input{
     border-radius: 15px;
     font-size: 10px;
+}
+.label-input input:focus{
+    outline: none;
 }
 .label-input i{
     font-size: 10px;
