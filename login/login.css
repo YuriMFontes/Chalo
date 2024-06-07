@@ -105,7 +105,7 @@
 }
 /*Rede para conectar*/
 .social-media{
-    margin: 1rem 0;
+    margin: 1vw;
 }
 .list-social-media{
     display: flex;
@@ -159,6 +159,10 @@
 }
 .label-input input{
     border-radius: 1.5vw;
+    font-size: 1vw;
+}
+.label-input i{
+    font-size: 1vw;
 }
 
 
@@ -369,4 +373,125 @@
         left: 0;
         border-radius: 0;
     }
+
+    .form{
+        width: 65%;
+    }
+
+    .item-social-media{
+        border: 1px solid #95a5a6;
+        border-radius: 50%;
+        width: 2vw;
+        height: 2vw;
+        line-height: 0.8vw;
+        text-align: center;
+        color: #95a5a6;
+    }
+
+    /*Animação*/
+
+    @keyframes deslocamentoEsq{
+        from{
+            top: 0;
+            opacity: 1;
+            z-index: 12;
+        }
+    
+        25%{
+            top: -80px;
+            opacity: 0.5;
+        }
+    
+        50%{
+            opacity: 0.2;
+            top: -100px;
+        }
+    
+        to{
+            top: -110px;
+            z-index: -1;
+        }
+    }
+    
+    @keyframes deslocamentoDir{
+        from{
+            top: 0;
+            opacity: 1;
+            z-index: 12;
+        }
+    
+        25%{
+            top: 80px;
+            opacity: 0.5;
+        }
+    
+        50%{
+            opacity: 0.2;
+            top: 100px;
+        }
+    
+        to{
+            top: 110px;
+            z-index: -1;
+        }
+    }
+    
+    @keyframes slidein {
+    
+        from{
+            top: 0;
+            height: 40%;
+        }
+    
+        25%{
+            top: 5%;
+            height: 50%;
+        }
+    
+        50%{
+            top: 25%;
+            height: 60%;
+    
+        }
+    
+        75%{
+            top: 45%;
+            height: 50%;
+        }
+    
+        to{
+            top: 60%;
+            height: 40%;
+        }
+    }
+    
+    @keyframes slideup {
+    
+        from{
+            top: 60%;
+            height: 40%;
+        }
+    
+        25%{
+            top: 45%;
+            height: 50%;
+        }
+    
+        50%{
+            top: 25%;
+            height: 60%;
+    
+        }
+    
+        75%{
+            top: 5%;
+            height: 50%;
+        }
+    
+        to{
+            top: 0;
+            height: 40%;
+        }
+    }
+
 }
