@@ -191,6 +191,7 @@
     text-transform: capitalize;
 }
 
+.sign-in-js .first-content .first-column,
 .sign-in-js .first-content .second-column{
     z-index: -1;
 }
@@ -483,9 +484,8 @@
         }
     
         to{
-            top: 0;
+            left: 0;
             height: 40%;
         }
     }
-
 }
