@@ -46,12 +46,6 @@
     .hamburger-menu i {
         color: white;
     }
-    .offcanvas-header{
-        background-image: url(../imagem/background\ sliderbar\ \(2\).jpg);
-    }
-    .offcanvas-body{
-        background-image: url(../imagem/background\ sliderbar\ \(2\).jpg);
-    }
 
     /*Barra de pesquisa*/
     .input-group .form-control:focus {
@@ -99,19 +93,32 @@
     /*Sliderbar*/
     #colection{
         font-weight: bold;
+        border-radius: 15px;
         font-size: 2.5vh;
+        background-color: #ffffff;
+    }
+
+    .offcanvas-header{
+        background-image: url(../imagem/background\ sliderbar\ \(2\).jpg);
+    }
+    .offcanvas-body{
+        background-image: url(../imagem/background\ sliderbar\ \(2\).jpg);
     }
 
     #colection .nav-item {
+        padding: 3px;
         border-bottom: 1px solid #ccc; 
-        padding-bottom: 5px; 
-        margin-bottom: 5px; 
     }
-
-    #colection .nav-item .nav-link:hover {
-        color: #f7467b; 
+    #colection .nav-item a{
+        padding-left: 10px;
+        color: black;
+    }
+   
+    #colection .nav-link a{
+        color: #f7467b;
     }
     
+    /*botão 3 linhas*/
     #p .navbar-toggler{
         width: 7vw;
         height: 7vw;
@@ -120,6 +127,10 @@
         justify-content: center;
     }
 
+    /*botão de fechar*/
+    .offcanvas-header .btn-close{
+        opacity: 1;
+    }
     /* Estilo para o carrossel */
     .carousel-item {
     height: 250px; 
