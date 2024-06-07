@@ -367,6 +367,10 @@
         flex-direction: column;
         justify-content: space-around;
     }
+
+    .first-column, .second-column{
+        width: 100%;
+    }
     
     .sign-in-js .content::before{
         top: 60%;
@@ -375,17 +379,7 @@
     }
 
     .form{
-        width: 65%;
-    }
-
-    .item-social-media{
-        border: 1px solid #95a5a6;
-        border-radius: 50%;
-        width: 2vw;
-        height: 2vw;
-        line-height: 0.8vw;
-        text-align: center;
-        color: #95a5a6;
+        width: 80%;
     }
 
     /*Animação*/
