@@ -7,5 +7,35 @@ body {
     font-family: "Quicksand", sans-serif !important;
 }
 
-/*1 lista de roupas*/
+/*footer*/
 
+.aten{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.aten h2{
+    color: white;
+    margin-bottom: 0;
+}
+.aten p{
+    color: white;
+}
+
+.support i{
+    color: #fd729c;
+}
+
+.mail{
+    padding-left: 20px;
+}
+.mail p{
+    color: white;
+}
+
+.zap{
+    padding-left: 20px;
+}
+.zap a{
+    color: white;
+    text-decoration: none;
+}
