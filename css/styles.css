@@ -7,38 +7,33 @@ body {
     font-family: "Quicksand", sans-serif !important;
 }
 
-/*footer*/
 
-.aten{
-    padding-left: 40px;
-    padding-top: 40px;
+/* Estilo para o footer */
+
+.foot{
+    padding-top: 30px;
 }
-.aten h2{
+.title{
     color: white;
-    margin-bottom: 0;
-    font-size: 4vh;
+    font-size: 18px;
+    font-weight: bold;
 }
-.aten p{
-    color: white;
-    font-size: 2vh;
-}
-
-.support i{
-    color: #fd729c;
-}
-
-.mail{
-    padding-left: 40px;
-}
-.mail p{
-    color: white;
-}
-
-.zap{
-    padding-left: 40px;
-}
-.zap a{
+.container-fluid a{
     color: white;
     text-decoration: none;
-    padding-bottom: 40px;
+    font-weight: 300;
+    opacity: 0.8;
+}
+.container-fluid a:hover{
+    color: #fd729c;
+    opacity: 1;
+}
+.container-fluid i{
+    color: #fd729c;
+    opacity: 1;
+}
+
+.end-footer{
+    height: 10px;
+    background-color: black;
 }
