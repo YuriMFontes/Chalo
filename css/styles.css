@@ -10,15 +10,17 @@ body {
 /*footer*/
 
 .aten{
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-left: 40px;
+    padding-top: 40px;
 }
 .aten h2{
     color: white;
     margin-bottom: 0;
+    font-size: 4vh;
 }
 .aten p{
     color: white;
+    font-size: 2vh;
 }
 
 .support i{
@@ -26,16 +28,17 @@ body {
 }
 
 .mail{
-    padding-left: 20px;
+    padding-left: 40px;
 }
 .mail p{
     color: white;
 }
 
 .zap{
-    padding-left: 20px;
+    padding-left: 40px;
 }
 .zap a{
     color: white;
     text-decoration: none;
+    padding-bottom: 40px;
 }
