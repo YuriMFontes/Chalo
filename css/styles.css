@@ -11,9 +11,27 @@ body {
 /* Estilos gerais */
 .sc-media-title{
     color: white;
-    margin-top: 30px;
-    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
 }
+.footer-media-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.footer-media {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-media .row {
+    max-width: 200px; 
+}
+
 #sc-media{
     width: 60px;
     height: 60px;
@@ -22,6 +40,8 @@ body {
     justify-content: center;
     align-items: center;
     background-color: white;
+    margin: 20px;
+    margin-top: 0;
 }
 #sc-media i{
     color: #000000;
