@@ -185,5 +185,9 @@
         width: 40%; 
         margin: 5px 0; 
     }
+    /*catalogo*/
+    .catalog-item{
+        height: 250px;
+    }
 }
     
