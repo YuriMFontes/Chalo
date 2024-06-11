@@ -39,6 +39,7 @@ body {
     background-color: white;
     margin: 20px;
     margin-top: 0;
+    text-decoration: none;
 }
 #sc-media i{
     color: #000000;
@@ -62,12 +63,20 @@ body {
     border-radius: 15px;
     padding: 5px;
 }
+.form-inline input:focus{
+    color: #fd729c;
+}
 .input-btn{
     width: 100px;
     border-radius: 15px;
     background-color: #fd729c;
     color: black;
     font-weight: bold;
+}
+.input-btn:hover{
+    background-color: transparent;
+    border-color: #fd729c;
+    color: white;
 }
 /* Estilo para o footer */
 .foot{
