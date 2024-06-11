@@ -7,9 +7,31 @@ body {
     font-family: "Quicksand", sans-serif !important;
 }
 
-
+/*Footer start*/
+/* Estilos gerais */
+.sc-media-title{
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#sc-media{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+#sc-media i{
+    color: #000000;
+    font-size: 20px;
+}
+#sc-media:hover{
+    background-color: #fd729c;
+    color: black;
+}
 /* Estilo para o footer */
-
 .foot{
     padding-top: 30px;
 }
@@ -18,17 +40,17 @@ body {
     font-size: 18px;
     font-weight: bold;
 }
-.container-fluid a{
+.footer-nav a{
     color: white;
     text-decoration: none;
     font-weight: 300;
     opacity: 0.8;
 }
-.container-fluid a:hover{
+.footer-nav a:hover{
     color: #fd729c;
     opacity: 1;
 }
-.container-fluid i{
+.footer-nav i{
     color: #fd729c;
     opacity: 1;
 }
