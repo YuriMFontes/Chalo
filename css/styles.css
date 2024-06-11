@@ -22,16 +22,13 @@ body {
     align-items: center;
     margin-top: 20px; 
 }
-
 .footer-media {
     display: flex;
     justify-content: center;
 }
-
 .footer-media .row {
     max-width: 200px; 
 }
-
 #sc-media{
     width: 60px;
     height: 60px;
@@ -50,6 +47,27 @@ body {
 #sc-media:hover{
     background-color: #fd729c;
     color: black;
+}
+.footer-newsletter {
+    text-align: center; 
+    margin-bottom: 30px;
+}
+.form-inline {
+    display: flex;
+    justify-content: space-between;
+}
+.form-inline input {
+    flex: 1;
+    margin-right: 10px; 
+    border-radius: 15px;
+    padding: 5px;
+}
+.input-btn{
+    width: 100px;
+    border-radius: 15px;
+    background-color: #fd729c;
+    color: black;
+    font-weight: bold;
 }
 /* Estilo para o footer */
 .foot{

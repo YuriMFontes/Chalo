@@ -165,6 +165,25 @@
         font-size: 2vw;
         font-weight: bold;
     }   
-    
+    .footer-media-container,
+    .form-inline {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .footer-media .row {
+        margin-bottom: 20px; 
+    }
+
+    .form-inline input {
+        width: 100%; 
+        margin: 5px 0; 
+        max-width: none; 
+    }
+
+    .input-btn {
+        width: 40%; 
+        margin: 5px 0; 
+    }
 }
     
