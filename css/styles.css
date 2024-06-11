@@ -51,7 +51,7 @@ body {
 }
 .footer-newsletter {
     text-align: center; 
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .form-inline {
     display: flex;
@@ -78,7 +78,12 @@ body {
     border-color: #fd729c;
     color: white;
 }
-/* Estilo para o footer */
+/* div da linha*/ 
+.line-div {
+    border-bottom: 2px solid white;    
+    margin-left: 10px;
+}
+/* Estilo para o footer mid*/
 .foot{
     padding-top: 30px;
 }
