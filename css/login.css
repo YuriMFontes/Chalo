@@ -19,8 +19,9 @@
 .modal-body {
     padding: 2rem;
 }
-
-
+.modal-body form{
+    color: #fd729c;
+}
 .btn-modal {
     background-color: #fd729c;
     border: none;
