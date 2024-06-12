@@ -204,11 +204,12 @@
                 </div>
                 <div class="modal-body">
                     <form>
-                        <div class="mb-3">
+                        <div class="mb-3 position-relative">
                             <input type="email" class="form-control" id="email" placeholder="E-mail">
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-3 position-relative">
                             <input type="password" class="form-control" id="password" placeholder="Senha">
+                            <i class="fas fa-eye password-toggle" onclick="togglePassword('password', this)"></i>
                         </div>
                         <button type="submit" class="btn-modal">Entrar</button>
                     </form>
@@ -229,23 +230,30 @@
                 </div>
                 <div class="modal-body">
                     <form>
-                        <div class="mb-3">
-                            <input type="email" class="form-control" id="email" placeholder="E-mail">
+                        <div class="mb-3 position-relative">
+                            <input type="email" class="form-control" id="registerEmail" placeholder="E-mail">
                         </div>
-                        <div class="mb-3">
-                            <input type="password" class="form-control" id="password" placeholder="Senha">
+                        <div class="mb-3 position-relative">
+                            <input type="password" class="form-control" id="registerPassword" placeholder="Senha">
+                            <i class="fas fa-eye password-toggle"
+                                onclick="togglePassword('registerPassword', this)"></i>
                         </div>
-                        <div class="mb-3">
-                            <input type="password" class="form-control" id="registerConfirmPassword" placeholder="Confirme a senha">
+                        <div class="mb-3 position-relative">
+                            <input type="password" class="form-control" id="registerConfirmPassword"
+                                placeholder="Confirme a senha">
+                            <i class="fas fa-eye password-toggle"
+                                onclick="togglePassword('registerConfirmPassword', this)"></i>
                         </div>
                         <button type="submit" class="btn-modal">Registrar</button>
                     </form>
-                    <p class="mt-3">Já tem uma conta? <a href="#" data-bs-toggle="modal"
-                        data-bs-target="#loginModal" data-bs-dismiss="modal">Entrar</a></p>
+                    <p class="mt-3">Já tem uma conta? <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal"
+                            data-bs-dismiss="modal">Entrar</a></p>
                 </div>
             </div>
         </div>
     </div>
+
+
 
     <!-- 1 Lista de roupas -->
     <div class="catalog">

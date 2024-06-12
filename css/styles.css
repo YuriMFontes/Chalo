@@ -223,3 +223,12 @@ body {
 .details-info:hover{
     background-color: #fd729c;
 }
+
+/*olhinho da senha*/
+.password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
